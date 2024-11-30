@@ -49,3 +49,12 @@ console.log("Cloned Student with New Property:", clonedStudent);
 const newCourses = ["webpage", "database"];
 const combinedCourses = [...student.courses, ...newCourses];
 console.log("Combined Courses:", combinedCourses);
+
+student.addCourse("technical writting");
+
+
+console.log("Updated Courses:", student.courses);
+
+
+const totalCourses = student.getTotalCourses();
+console.log("Total Number of Courses:", totalCourses);
