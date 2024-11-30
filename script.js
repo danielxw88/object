@@ -26,3 +26,10 @@ console.log("Are the objects equal?", JSON.stringify(student) === JSON.stringify
 const { name, courses } = student;
 console.log("Student Name:", name);
 console.log("Courses:", courses);
+
+const scores = [60, 92, 78, 88];
+
+
+const [firstScore, secondScore] = scores;
+console.log("First Score:", firstScore);
+console.log("Second Score:", secondScore);
