@@ -19,3 +19,6 @@ console.log("JSON String:", studentJSON);
 
 const studentObject = JSON.parse(studentJSON);
 console.log("Converted Object:", studentObject);
+
+console.log("Original Object:", student);
+console.log("Are the objects equal?", JSON.stringify(student) === JSON.stringify(studentObject));
