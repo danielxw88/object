@@ -16,3 +16,6 @@ console.log(student.displayInfo());
 
 const studentJSON = JSON.stringify(student); 
 console.log("JSON String:", studentJSON);
+
+const studentObject = JSON.parse(studentJSON);
+console.log("Converted Object:", studentObject);
