@@ -22,3 +22,7 @@ console.log("Converted Object:", studentObject);
 
 console.log("Original Object:", student);
 console.log("Are the objects equal?", JSON.stringify(student) === JSON.stringify(studentObject));
+
+const { name, courses } = student;
+console.log("Student Name:", name);
+console.log("Courses:", courses);
