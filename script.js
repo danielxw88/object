@@ -3,11 +3,19 @@ const student = {
     age: 35,                  
     enrolled: true,            
     courses: ["Javascript", "algorithm", "operation system"], 
+    addCourse: function (newCourse) {
+        this.courses.push(newCourse);
+        console.log(`Course "${newCourse}" added successfully.`);
+    },
+    getTotalCourses: function () {
+        return this.courses.length;
+    },
+}
 
 
     displayInfo: function() {
         return `Student Name: ${this.name}, Age: ${this.age}, Enrolled: ${this.enrolled}`;
-    }
+     
 };
 
 console.log("Name:", student.name);
